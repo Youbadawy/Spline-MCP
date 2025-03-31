@@ -4,7 +4,7 @@ An MCP server for working with the [Spline](https://spline.design) 3D design too
 
 ## What is this?
 
-This project allows AI assistants (like the one you're talking to now!) to control Spline 3D design software. Think of it as a bridge between AI and the 3D design world.
+This project allows AI assistants to control Spline 3D design software. Think of it as a bridge between AI and the 3D design world.
 
 **For non-technical users:** This tool helps your AI assistant work with Spline, allowing it to help you create and manage 3D designs through simple conversations.
 
