@@ -291,6 +291,10 @@ Trigger the "Pulse" animation for object "heart-123" in scene "abc456" with loop
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+Thanks to @aydinfer for starting the project
+
+https://github.com/aydinfer/spline-mcp-server/tree/main/src
+
 ## License
 
 MIT
