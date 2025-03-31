@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { McpServer } from '@anthropic-ai/mcp-server';
+import { McpServer } from './src/utils/mcpServer.js';
 import dotenv from 'dotenv';
 import { exportScene } from './src/controllers/exportScene.js';
 import { importScene } from './src/controllers/importScene.js';

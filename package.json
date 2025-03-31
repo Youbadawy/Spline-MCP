@@ -4,6 +4,9 @@
   "description": "An MCP server for working with Spline 3D design tool API",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "spline-mcp-server": "./bin/cli.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +15,29 @@
     "mcp",
     "spline",
     "3d",
-    "design"
+    "design",
+    "animation",
+    "claude",
+    "ai"
   ],
-  "author": "",
+  "author": "Youbadawy",
   "license": "MIT",
   "dependencies": {
-    "@anthropic-ai/mcp-server": "^0.0.8",
     "axios": "^1.6.1",
-    "dotenv": "^16.3.1"
-  }
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Youbadawy/Spline-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Youbadawy/Spline-MCP/issues"
+  },
+  "homepage": "https://github.com/Youbadawy/Spline-MCP#readme"
 }
